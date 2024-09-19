@@ -1,0 +1,11 @@
+.projects .projects-container{
+    padding: 20px;
+}
+
+.projects .projects-container .projects-title{
+    text-align: center;
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+}

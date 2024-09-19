@@ -1,0 +1,53 @@
+.review .review-container {
+    padding: 40px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+
+.review .review-container .bg .swiper-review {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;}
+
+.review .review-container .bg .swiper-review .swiper-slide {
+    text-align: center;
+    background: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--second-text-color);
+}
+
+.review .review-container .bg .swiper-review .swiper-slide .carousel-container {
+    display: grid;
+    padding: 20px;
+}
+
+
+.review .review-container .bg .swiper-review .swiper-slide .carousel-container {
+    border: 4px solid var(---icons-color);
+    box-shadow: inset 4px 2px 20px 0px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+}
+
+.review .review-container .bg .swiper-review .carousel-container .swiper-slide p {
+    text-align: justify;
+}
+
+.swiper-review .swiper-pagination-bullet {
+    background-color: var(--text-color);
+
+}
+
+.swiper-review .swiper-pagination-bullet-active {
+    background-color: var(---icons-color) !important;
+}
+
+@media (max-width: 768px) {
+
+    .review .review-container .bg .swiper-review .swiper-slide .carousel-container{
+        border: 2px solid var(---icons-color);
+    }
+
+}

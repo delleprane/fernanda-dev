@@ -1,0 +1,46 @@
+.button .button-container {
+    padding: 20px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.button .button-container a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.button .button-container .cv {
+    background-color: var(--teste);
+}
+
+.button .button-container .contact {
+    background-color: var(---icons-color);
+}
+
+.button .button-container .cv:hover{
+    background-color: var(---icons-color);
+    transform: scale(0.95); 
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button .button-container .contact:hover{
+    background-color: var(--teste);
+    transform: scale(0.95); 
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+    .button .button-container {
+        width: 185px;
+    }
+
+    .button .button-container a svg {
+        width: 12px;
+    }
+}

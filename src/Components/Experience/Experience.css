@@ -1,0 +1,43 @@
+.experience .experience-container{
+    padding: 20px;
+    text-align: center;
+    color: var( --text-color);
+}
+
+.experience .experience-container p{
+    text-align:justify;
+}
+
+
+.experience .experience-container .experience-item {
+    padding: 20px;
+    border-bottom: 3px var(--teste) solid;
+    border-top: 3px var(--teste) solid;
+}
+
+.experience .experience-container .experience-item h4{
+    color: var( ---icons-color);
+}
+
+.experience-item{
+    margin-bottom: 60px;
+}
+
+.experience .experience-container .experience-item span{
+    font-weight: bold;
+    color: var( ---icons-color);
+}
+
+.experience .experience-container .experience-item li{
+list-style: none;
+}
+
+.experience .experience-container .experience-item .cv a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var( --text-color);
+}

@@ -1,0 +1,56 @@
+.menu .menu-container {
+    padding: 0px 20px;
+    border-bottom: 2px solid var(---icons-color);
+}
+
+.menu .menu-container .itens-menu {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .menu-container .itens-menu .logo {
+    width: 85px;
+    height: 105px;
+    cursor: pointer;
+}
+
+.menu .menu-container .itens-menu ul {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    font-family: var(--font-content);
+    color: var(--text-color);
+}
+
+.menu .menu-container .itens-menu .text-menu {
+    list-style: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu .menu-container .itens-menu {
+        max-height: 80vh;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .menu .menu-container .itens-menu ul {
+        gap: 8px;
+    }
+
+    .menu .menu-container .itens-menu::-webkit-scrollbar {
+        display: none;
+    }
+
+    .menu .menu-container .itens-menu {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .menu .menu-container .itens-menu .logo {
+        width: 55px;
+        height: 70px;
+    }
+}

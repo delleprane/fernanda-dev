@@ -1,0 +1,54 @@
+.contact .contact-container {
+    padding: 20px;
+    color: var(--text-color);
+}
+
+.contact .contact-container .border {
+    border: 4px var(---icons-color) solid;
+    box-shadow: inset 4px 2px 20px 0px rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 20px;
+
+}
+
+.contact .contact-container h2 {
+    text-align: center;
+}
+
+.contact .contact-container h3 {
+    text-align: justify;
+}
+
+.contact .contact-container a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.contact .contact-container .contact-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.contact .contact-container .contact-links .link {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.contact .contact-container .contact-links .link:hover {
+    transform: scale(1.07);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+    .contact .contact-container .contact-links {
+        display: grid;
+    }
+
+    .contact .contact-container .contact-links .link {
+        margin-bottom: 20px;
+    }
+}
