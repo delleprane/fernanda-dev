@@ -5,9 +5,9 @@ import { Button } from "../Button"
 
 export function Experience() {
     return (
-        <div className="experience" id='experiencia'>
+        <div className="experience" id='experiência'>
             <div className="experience-container">
-                <h2>Experiencia</h2>
+                <h2>Experiência</h2>
                 {experience.map((item =>
                     <div className="experience-item">
                         <h3>{item.title}</h3>

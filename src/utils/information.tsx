@@ -172,7 +172,7 @@ export const contact = {
 
 }
 
-export const menu = ["Sobre", "Educacao", "Projetos", "Reviews", "Experiencia", "Contato"]
+export const menu = ["Sobre", "Educação", "Projetos", "Reviews", "Experiência", "Contato"]
 
 
 // Content Web

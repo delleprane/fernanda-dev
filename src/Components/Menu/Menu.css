@@ -1,7 +1,7 @@
 /* Estilos básicos para o menu já existentes */
 .menu {
     position: sticky;
-    top: 0; 
+    top: 0;
     z-index: 1000;
     background-color: var(--background-color);
 }
@@ -53,11 +53,10 @@
 }
 
 .menu .menu-container .itens-menu .active {
-    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
     font-weight: bold;
 }
 
-/* Estilos para o ícone de menu hamburguer */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -74,13 +73,12 @@
     border-radius: 2px;
 }
 
-/* Estilos para mobile */
+
 @media (max-width: 768px) {
     .menu .menu-container .itens-menu ul {
-        display: none; /* Esconde o menu padrão */
+        display: none;
     }
 
-    /* Mostra o ícone de hamburguer no mobile */
     .hamburger {
         display: flex;
     }
@@ -90,17 +88,30 @@
         height: 70px;
     }
 
+    .menu .menu-container .itens-menu ul {
+        display: none;
+    }
+
     .menu .menu-container .itens-menu ul.open {
         display: flex;
         flex-direction: column;
         gap: 10px;
         position: absolute;
-        top: 60px;
+        top: 56px;
         right: 0;
         background-color: var(--background-color);
         width: 100%;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 999;
+        text-align: right;
     }
+
+    .menu .menu-container .itens-menu .active {
+        color: var(--secondary-color);
+        border-bottom: none;
+        font-weight: bold;
+    }
+
 }

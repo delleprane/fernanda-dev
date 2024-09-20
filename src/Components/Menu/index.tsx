@@ -66,16 +66,16 @@ export function Menu() {
     }, [lastScrollY]);
 
     return (
-        <div className={`menu ${isVisible ? "visible" : "hidden"} ${isAtTop ? "isTop" : ""} ${isMenuOpen ? "open" : ""}`}>
+        <div className={`menu ${isVisible ? "visible" : "hidden"} ${isAtTop ? "isTop" : ""}`}>
             <div className="menu-container">
                 <div className="itens-menu">
                     <img className="logo" src="images/logo-icon.png" alt="logo" onClick={() => handleItemClick('sobre')} />
                     <div className="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                        <span className="hamburger-bar">1</span>
-                        <span className="hamburger-bar">2</span>
-                        <span className="hamburger-bar">3</span>
+                        <span className="hamburger-bar"></span>
+                        <span className="hamburger-bar"></span>
+                        <span className="hamburger-bar"></span>
                     </div>
-                    <ul className="menu-items">
+                    <ul className={`${isMenuOpen ? "open" : ""}`}>
                         {menu.map((item) => (
                             <li
                                 key={item}

@@ -19,7 +19,7 @@ export function Review() {
     return (
         <div className="review" id="reviews">
             <div className="review-container">
-                <h2>Opnioes</h2>
+                <h2>Reviews</h2>
                 <div className="bg">
                     <Swiper
                         pagination={true}

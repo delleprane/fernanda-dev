@@ -13,9 +13,9 @@ import { buttonCertification, education } from "../../utils/information";
 
 export function Education() {
     return (
-        <div className="education" id='educacao'>
+        <div className="education" id='educação'>
             <div className="education-container">
-                <h2>Educacao</h2>
+                <h2>Educação</h2>
                 <Swiper
                     spaceBetween={30}
                     loop={true}
