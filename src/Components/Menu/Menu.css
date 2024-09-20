@@ -53,7 +53,7 @@
 }
 
 .menu .menu-container .itens-menu .active {
-    border-bottom: 2px solid var(--secondary-color);
+    text-decoration: underline 2px var(--secondary-color);
     font-weight: bold;
 }
 
@@ -109,8 +109,7 @@
     }
 
     .menu .menu-container .itens-menu .active {
-        color: var(--secondary-color);
-        border-bottom: none;
+        text-decoration: underline 2px var(--secondary-color);
         font-weight: bold;
     }
 

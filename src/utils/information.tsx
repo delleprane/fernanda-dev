@@ -1,18 +1,25 @@
 
 export const about = {
     title: "Front-end",
-    content: `Sou Desenvolvedora Front-End especializada em React.js, React Hooks, JavaScript e TypeScript, com sólida experiência em grandes projetos e uma paixão por criar interfaces interativas e intuitivas. Minha jornada no desenvolvimento começou com a curiosidade por entender o que acontece nos bastidores das melhores experiências digitais.
-Trabalhei em empresas renomadas como MadeiraMadeira e Huia, onde fui responsável por desenvolver soluções escaláveis, eficientes e centradas no usuário. Minha atuação incluiu desde o gerenciamento de estados complexos até o consumo de APIs com Axios, sempre buscando otimizar a performance e garantir a melhor experiência possível.
-Tenho ampla prática em CSS, SASS e Tailwind, criando layouts responsivos e modernos, além de uma sólida habilidade na manipulação de objetos e boas práticas em Node.js, garantindo que as aplicações funcionem perfeitamente tanto no front quanto no back-end. Também sou adepta de metodologias ágeis, como o Scrum, e trabalho muito bem em squads multidisciplinares, onde a colaboração e a comunicação eficaz são chave.
-Atualmente, estou ampliando meus conhecimentos em Segurança da Informação pela FMU, o que me proporciona uma visão ainda mais completa sobre como criar aplicações não apenas funcionais, mas também seguras.
-Combinando meu background em marketing digital com minha expertise técnica, consigo trazer uma perspectiva estratégica para os projetos, unindo a necessidade de performance à experiência do usuário. Minha formação em marketing e experiência em grandes empresas me deram uma base sólida para entender o impacto das decisões de desenvolvimento no negócio como um todo. `,
-    skills:
-    {
+    content: `Sou uma Desenvolvedora Front-End apaixonada por tecnologia, especializada em React.js, React Hooks, JavaScript e TypeScript. Desde o início da minha jornada, sempre tive curiosidade por entender o que acontece nos bastidores das melhores experiências digitais, e essa busca me levou a trabalhar em projetos significativos com empresas renomadas como MadeiraMadeira e Huia.
+    
+    Durante minha trajetória, desenvolvi interfaces interativas e intuitivas, sempre com foco em otimização de performance e segurança. Acredito que cada linha de código deve refletir não só eficiência, mas também criar uma experiência que cative o usuário. Além do front-end, tenho um entendimento profundo do back-end, o que me permite integrar soluções completas.
+
+    Estou constantemente aprimorando meus conhecimentos, atualmente explorando Segurança da Informação para garantir que minhas aplicações sejam não apenas bonitas e funcionais, mas também seguras. Minha combinação de habilidades técnicas e visão estratégica, vinda da minha formação em marketing digital, me ajuda a criar soluções que impactam tanto o usuário final quanto o negócio como um todo.`,
+
+    skills: {
         title: 'Minhas principais habilidades incluem:',
-        ability: ['React.js, React Hooks,JavaScript, TypeScript, Node.js'
-            , 'CSS, SASS, Tailwind CSS', 'Axios, Consumo de API`s', 'Metodologia agil, Scrum', 'Gerenciamento de estados, SEO, Manipulacao de objetos', 'Sites responsivos, Desenvolvimento de interfaces centradas no usuário, foco em performance e segurança']
+        ability: [
+            'React.js, React Hooks, JavaScript, TypeScript, Node.js',
+            'CSS, SASS, Styled Components: Tailwind CSS',
+            'Consumo de APIs com Axios, Integração com APIs externas',
+            'Metodologias ágeis: Scrum',
+            'Gerenciamento de estados, SEO, Manipulação de objetos complexos',
+            'Desenvolvimento de sites responsivos, interfaces centradas no usuário, foco em performance e segurança'
+        ]
     }
 }
+
 
 
 export const projects = [
@@ -40,17 +47,19 @@ export const projects = [
 
     {
         title: "Projeto Front end de Cadastro de Clientes",
-        content: `Este projeto é a interface front-end para o backend de cadastro, listagem e 
-        deleção de clientes, que pode ser encontrado em Clients-CRUD-backend.`,
+        content: `Este projeto é a interface front-end para o backend de cadastro que pode ser encontrado em Clients-CRUD-backend. 
+        Desenvolvido em TypeScript que implementa funcionalidades de cadastro, listagem e deleção de clientes.`,
         features: {
             title: 'Funcionalidades',
-            text: 'Cadastro de clientes: Busque a lista de clientes, cadastre novos e delete em nosso banco de dados .',
+            text: 'Liste, Cadastre e Delete usuários de nosso banco de dados.',
             list: [
-                'Nome', 'E-mail'
+                ' Cadastro de Clientes: Permite criar novos registros de clientes no banco de dados.',
+                ' Listagem de Clientes: Retorna a lista de todos os clientes cadastrados.',
+                ' Deleção de Clientes: Remove clientes específicos do banco de dados com base em seu ID.'
             ],
             technology: {
                 title: 'Tecnologias',
-                list: ['React', 'Vite.js', 'Tailwind CSS', 'Axios']
+                list: ['React', 'Vite.js', 'Styled Components: Tailwind CSS', 'Consumo de API -Clients-CRUD-backend- com Axios']
             }
         },
         github: 'https://github.com/delleprane/Clients-CRUD-frontend',
@@ -82,26 +91,26 @@ export const projects = [
     },
 
     {
-        title: "Tabela fipe e Exercicios",
-        content: `Este projeto é uma aplicação desenvolvida para praticar e demonstrar várias técnicas de desenvolvimento 
-        web.`,
-        features: {
-            title: 'Funcionalidades',
-            text: '',
-            list: [
-                '  Máscaras de Entrada: Implementação de máscaras para campos.',
-                '  Consumo de APIs: Integração com APIs externas para obter e enviar dados.',
-                '  Edição de Conteúdos: Funcionalidade para editar conteúdos dinâmicos.',
-                '  Consulta à Tabela FIPE: Criação de campos e retorno personalizado a partir de consultas na tabela FIPE de carros.'
+        "title": "Tabela FIPE e Exercícios",
+        "content": "Este projeto foi desenvolvido como uma aplicação web para praticar e demonstrar diversas técnicas avançadas de desenvolvimento front-end.",
+        "features": {
+            "title": "Funcionalidades",
+            "text": "",
+            "list": [
+                "Máscaras de Entrada: Implementação de máscaras para formatação de campos de input.",
+                "Integração com APIs: Consumo de APIs externas para obtenção e envio de dados.",
+                "Edição Dinâmica de Conteúdo: Funcionalidade que permite a edição de conteúdos de forma dinâmica.",
+                "Consulta à Tabela FIPE: Campos personalizados para consulta de dados da Tabela FIPE, com retorno de informações detalhadas sobre veículos."
             ],
-            technology: {
-                title: 'Tecnologias',
-                list: ['React', 'Javascript', 'CSS', 'Axios']
+            "technology": {
+                "title": "Tecnologias Utilizadas",
+                "list": ["React", "JavaScript", "CSS", "Consumo de API -Rick e Morty- com Axios"]
             }
         },
-        github: 'https://github.com/delleprane/tabela-fipe',
-        url: 'https://tabela-fipe-rho.vercel.app'
-    },
+        "github": "https://github.com/delleprane/tabela-fipe",
+        "url": "https://tabela-fipe-rho.vercel.app"
+    }
+    
 ]
 
 export const education = [
@@ -109,20 +118,20 @@ export const education = [
         name: 'Curso Superior de Tecnologia (CST), Segurança da informação',
         institution: 'FMU',
         link: 'https://www.linkedin.com/in/fernanda-delleprane/details/education/',
-        certificationImage:'images/fmu-logo.png',
+        certificationImage: 'images/fmu-logo.png',
     },
     {
         name: 'Desenvolvimento Web Full Stack',
         institution: 'Ironhack',
         link: 'https://www.linkedin.com/in/fernanda-delleprane/details/education/',
-        certificationImage:'images/ironhack-logo.png',
-         certification:'/docs/ironhack.pdf'
+        certificationImage: 'images/ironhack-logo.png',
+        certification: '/docs/ironhack.pdf'
     },
     {
         name: 'Marketing',
         institution: 'Universidade Estacio de Sa',
         link: 'https://www.linkedin.com/in/fernanda-delleprane/details/education/',
-        certificationImage:'images/estacio-logo.png',
+        certificationImage: 'images/estacio-logo.png',
     },
 ]
 
@@ -141,28 +150,25 @@ export const reviews = [
 
 export const experience = [
     {
-        title: "Analista front-end",
+        title: "Analista de desenvolvimento de sistemas Front-end",
         subTitle: "MadeiraMadeira",
         time: "2022 - 2024",
-        content: `Desenvolvedora Front-end com sólida experiência em React.js, JavaScript, TypeScript e Node.js, atuando em projetos que aliam desenvolvimento técnico e visão estratégica.
-            Na Equipe de Analytics, trabalhei em uma equipe multidisciplinar de desenvolvimento, marketing e dados, onde padronizei eventos para coleta de dados e forneci insights cruciais que suportaram decisões estratégicas orientadas a fatos. Na Equipe Navcon, foquei em melhorias de SEO, correção de bugs e criação de novas páginas, aprimorando a experiência do usuário e otimizando o ambiente de compras online.
-            Proficiente em metodologias ágeis como Scrum, tenho habilidades em CSS e Sass, além de uma forte capacidade de comunicação e colaboração em squads multidisciplinares. Busco constantemente aprimorar minhas competências para entregar soluções inovadoras e eficientes.
-            `,
+        content: `Minha jornada como Desenvolvedora Front-end na MadeiraMadeira foi marcada por desafios que me permitiram crescer tanto tecnicamente quanto estrategicamente. Trabalhar com React.js, JavaScript, TypeScript e Node.js me deu a oportunidade de desenvolver soluções que não apenas funcionavam, mas agregavam valor real ao negócio. 
+        Na Equipe de Analytics, ao lado de profissionais de marketing, dados e desenvolvimento, ajudei a padronizar eventos de coleta de dados, gerando insights cruciais que influenciaram decisões estratégicas baseadas em fatos. Foi emocionante ver como o meu trabalho diretamente impactou as decisões da empresa. Já na Equipe Navcon, cada melhoria de SEO, cada bug corrigido e cada nova página criada me dava a satisfação de aprimorar a experiência dos nossos usuários, tornando o ambiente de compras online mais intuitivo e agradável.
+        Adoro colaborar em squads multidisciplinares, onde minha habilidade de comunicação e meu espírito colaborativo me ajudam a encontrar soluções criativas. Sou apaixonada por metodologias ágeis como Scrum e continuo em uma busca constante por aprender e inovar para oferecer as melhores soluções.`,
         tech: 'React.js, JavaScript, TypeScript, Node.js, CSS, Sass, Scrum',
     },
-
     {
-        title: "Front-end",
+        title: "Analista de desenvolvimento de sistemas Front-end",
         subTitle: "Huia",
         time: "2021 - 2022",
-        content: `Desenvolvedora Front-end com ampla experiência em JavaScript, React, Strapi CMS, Tailwind, CSS e Styled Components. Tenho um histórico comprovado de criar soluções que equilibram inovação técnica e facilidade de uso.
-            Na Huia, um estúdio digital, desempenhei um papel essencial na criação de landing pages personalizadas. Para capacitar os clientes com mais autonomia, implementei o Strapi CMS, permitindo que criassem e gerenciassem suas próprias páginas, selecionando layouts e componentes de acordo com suas necessidades. Essa solução simplificou a edição de conteúdo e garantiu uma experiência web responsiva e eficiente.
-            Minha abordagem é sempre centrada no usuário, com foco em entregar produtos funcionais e de alta qualidade. Tenho experiência em colaborar com equipes multidisciplinares, aplicando metodologias ágeis como Scrum para garantir que os projetos sejam concluídos com excelência.
-            `,
+        content: `Minha experiência na Huia foi como um grande laboratório de criatividade e inovação. Como Desenvolvedora Front-end, tive a oportunidade de trabalhar com JavaScript, React, Strapi CMS e Tailwind, onde ajudei a criar soluções que conectavam os objetivos de negócio com uma experiência do usuário intuitiva e personalizada.
+        O momento mais gratificante foi quando implementei o Strapi CMS para nossos clientes. Isso não apenas os empoderou a criar e gerenciar suas próprias páginas, mas trouxe uma autonomia que mudou a forma como viam seus negócios online. Saber que eu estava entregando algo que facilitava suas vidas foi muito recompensador. Cada landing page que criei foi pensada para ser funcional e visualmente atrativa, sempre com foco em performance e responsividade.
+        Trabalhar com metodologias ágeis como Scrum me permitiu colaborar de perto com equipes multidisciplinares, mantendo o usuário no centro de tudo que fazia. Cada desafio era uma nova oportunidade para criar algo especial, e cada vitória compartilhada com o time me impulsionava a ir além.`,
         tech: 'React.js, JavaScript, Strapi CMS, Tailwind CSS, CSS, Styled Components'
-
     },
 ]
+
 
 export const contact = {
     content: "Estou sempre aberta a novas ideias, desafios e colaborações. Se você tem um projeto em mente, uma pergunta, ou apenas quer conversar sobre desenvolvimento, ficarei feliz em ouvir de você. Vamos conectar e construir algo incrível juntos!",
