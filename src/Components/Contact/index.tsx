@@ -12,7 +12,7 @@ export function Contact() {
                     <h3>{contact.content}</h3>
                     <div className="contact-links">
                         <div className="linkedin link">
-                            <FaLinkedin color="var(---icons-color)" />
+                            <FaLinkedin color="var(--primary-color)" />
                             <a target="_blank"
                                 rel="noopener noreferrer"
                                 href={contact.linkedin.url}>
@@ -21,7 +21,7 @@ export function Contact() {
                         </div>
 
                         <div className="email link">
-                            <FaEnvelope color="var(---icons-color)" />
+                            <FaEnvelope color="var(--primary-color)" />
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -31,7 +31,7 @@ export function Contact() {
                         </div>
 
                         <div className="github link">
-                            <FaGithub color="var(---icons-color)" />
+                            <FaGithub color="var(--primary-color)" />
                             <a target="_blank"
                                 rel="noopener noreferrer"
                                 href={contact.github.url}>
@@ -40,7 +40,7 @@ export function Contact() {
                         </div>
 
                         <div className="whatsapp link">
-                            <FaWhatsapp color="var(---icons-color)" />
+                            <FaWhatsapp color="var(--primary-color)" />
                             <a href={`https://wa.me/${contactNumber}`} target="_blank" rel="noopener noreferrer">
                                 {whastapp}
                             </a>

@@ -11,12 +11,12 @@
 
 .experience .experience-container .experience-item {
     padding: 20px;
-    border-bottom: 3px var(--teste) solid;
-    border-top: 3px var(--teste) solid;
+    border-bottom: 3px var(--secondary-color) solid;
+    border-top: 3px var(--secondary-color) solid;
 }
 
 .experience .experience-container .experience-item h4{
-    color: var( ---icons-color);
+    color: var( --primary-color);
 }
 
 .experience-item{
@@ -25,7 +25,7 @@
 
 .experience .experience-container .experience-item span{
     font-weight: bold;
-    color: var( ---icons-color);
+    color: var( --primary-color);
 }
 
 .experience .experience-container .experience-item li{

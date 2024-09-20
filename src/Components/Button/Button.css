@@ -15,21 +15,21 @@
 }
 
 .button .button-container .cv {
-    background-color: var(--teste);
+    background-color: var(--secondary-color);
 }
 
 .button .button-container .contact {
-    background-color: var(---icons-color);
+    background-color: var(--primary-color);
 }
 
 .button .button-container .cv:hover{
-    background-color: var(---icons-color);
+    background-color: var(--primary-color);
     transform: scale(0.95); 
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .button .button-container .contact:hover{
-    background-color: var(--teste);
+    background-color: var(--secondary-color);
     transform: scale(0.95); 
     transition: transform 0.3s ease, background-color 0.3s ease;
 }

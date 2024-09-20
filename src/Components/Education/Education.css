@@ -30,7 +30,7 @@
 
 .swiper-education .swiper-slide .see-more a {
     background-color: var(--back-ground);
-    color: var(--teste);
+    color: var(--secondary-color);
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;

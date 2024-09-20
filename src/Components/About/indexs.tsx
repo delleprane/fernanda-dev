@@ -13,7 +13,7 @@ export function About() {
                 <div className="content-container">
                     <div className="image">
                         <img className="logo" src="images/about-image.png" alt="fernanda-image" />
-                        <Button  type='contact'/>
+                        <Button type='contact' />
                     </div>
                     <div className="content">
                         <h2 className='subtitle-content'>{about.title}</h2>
@@ -23,7 +23,7 @@ export function About() {
                             {about.skills.ability.map((item => <li>{item}</li>))}
                         </ul>
                         <div className="cv">
-                            <Button type='cv'/>
+                            <Button type='cv' />
                         </div>
                     </div>
                 </div>

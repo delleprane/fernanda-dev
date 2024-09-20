@@ -4,9 +4,6 @@
 :root {
     --background-color: #04001f;
     --text-color: #ffffff;
-    --second-text-color: #ffffff;
-    ---icons-color: #ff00fc;
-    --bg-color: rgba(241, 176, 206, 0.5);
-    --teste:#db00ff
-
+    --primary-color: #ff00fc;
+    --secondary-color: #db00ff;
 }

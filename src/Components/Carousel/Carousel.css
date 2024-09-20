@@ -4,7 +4,7 @@
 
 .swiper-projects .swiper-slide {
     background-color: var(--background-color);
-    border: 4px var(--teste) solid !important;
+    border: 4px var(--secondary-color) solid !important;
     border: 20px;
     border-radius: 18px;
     box-shadow: inset 4px 2px 20px 0px rgba(255, 255, 255, 0.3);
@@ -15,7 +15,7 @@
     padding: 20px;
     color: var(--text-color);
     height: 600px;
-    border-bottom: 4px solid var(--teste);
+    border-bottom: 4px solid var(--secondary-color);
     box-sizing: border-box;
 }
 
@@ -34,11 +34,11 @@
 .swiper-projects .swiper-slide .buttons a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--second-text-color);
+    color: var(--text-color);
 }
 
 .swiper-projects .swiper-slide .buttons a:hover {
-    color: var(---icons-color);
+    color: var(--secondary-color);
 }
 
 .swiper-projects .swiper-pagination-bullet {
@@ -47,7 +47,7 @@
 }
 
 .swiper-projects .swiper-pagination-bullet-active {
-    background-color: var(--teste);
+    background-color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {

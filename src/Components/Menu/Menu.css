@@ -1,6 +1,6 @@
 .menu .menu-container {
     padding: 0px 20px;
-    border-bottom: 2px solid var(---icons-color);
+    border-bottom: 2px solid var(--primary-color);
 }
 
 .menu .menu-container .itens-menu {
