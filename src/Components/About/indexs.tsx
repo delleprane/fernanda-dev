@@ -20,7 +20,7 @@ export function About() {
                         <p>{about.content}</p>
                         <p>{about.skills.title}</p>
                         <ul>
-                            {about.skills.ability.map((item => <li>{item}</li>))}
+                            {about.skills.ability.map(((item,index) => <li key={index}>{item}</li>))}
                         </ul>
                         <div className="cv">
                             <Button type='cv' />

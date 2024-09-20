@@ -32,8 +32,8 @@ export function Review() {
                             disableOnInteraction: false,
                         }}
                         className="swiper-review">
-                        {reviews.map((item =>
-                            <SwiperSlide>
+                        {reviews.map(((item,index) =>
+                            <SwiperSlide key={index}>
                                 <div className="carousel-container">
                                     <h2>{item.title}</h2>
                                     <h3>{item.subTitle}</h3>

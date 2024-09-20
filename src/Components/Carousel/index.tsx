@@ -41,8 +41,8 @@ export default function Carousel() {
         modules={[Pagination]}
         className="swiper-projects"
       >
-          {projects.map((item =>
-                <SwiperSlide className='web-slide'>
+          {projects.map(((item,index) =>
+                <SwiperSlide className='web-slide' key={index}>
                     <div className="swiper-container">
                         <h2>{item.title}</h2>
                         <div className="content">
@@ -50,16 +50,16 @@ export default function Carousel() {
                             <h3>{item.features.title}:</h3>
                             <p>{item.features.text}</p>
                             <ul>
-                                {item.features.list.map((i =>
-                                    <li>{i}</li>
+                                {item.features.list.map(((obj,index) =>
+                                    <li key={index}>{obj}</li>
                                 ))}
                             </ul>
                         </div>
                         <div className="tec">
                             <h3>{item.features.technology.title}:</h3>
                             <ul>
-                                {item.features.technology.list.map((b =>
-                                    <li>{b}</li>
+                                {item.features.technology.list.map(((value,index) =>
+                                    <li key={index}>{value}</li>
                                 ))}
                             </ul>
                         </div>

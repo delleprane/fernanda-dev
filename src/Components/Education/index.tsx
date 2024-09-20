@@ -26,8 +26,8 @@ export function Education() {
                     modules={[ Autoplay]}
                     className="swiper-education"
                 >
-                    {education.map((item =>
-                        <SwiperSlide>
+                    {education.map(((item,index) =>
+                        <SwiperSlide key={index}>
                             <div className="swiper-content">
                                 <div className="image">
                                     <img

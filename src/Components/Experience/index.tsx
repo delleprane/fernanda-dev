@@ -8,8 +8,8 @@ export function Experience() {
         <div className="experience" id='experiência'>
             <div className="experience-container">
                 <h2>Experiência</h2>
-                {experience.map((item =>
-                    <div className="experience-item">
+                {experience.map(((item,index) =>
+                    <div className="experience-item" key={index}>
                         <h3>{item.title}</h3>
                         <h4>{item.subTitle} <span>{item.time}</span></h4>
                         <p>{item.content}</p>
