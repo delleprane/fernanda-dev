@@ -35,4 +35,8 @@
     font-size: 14px;
   }
 
+  .App .container-app img{
+    width: 150px !important;
+  }
+
 }

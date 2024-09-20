@@ -17,12 +17,11 @@ export function Experience() {
                             <span>Tech Stack: </span>
                             {item.tech}
                         </p>
-
-                        <div className="cv">
-                            <Button type="cv"/>
-                        </div>
                     </div>
                 ))}
+                <div className="cv">
+                    <Button type="cv" />
+                </div>
             </div>
         </div>
     )

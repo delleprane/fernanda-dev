@@ -12,7 +12,7 @@ export function About() {
                 <h2 className='subtitle'>{about.title}</h2>
                 <div className="content-container">
                     <div className="image">
-                        <img className="logo" src="images/about-image.png" alt="logo" />
+                        <img className="logo" src="images/about-image.png" alt="fernanda-image" />
                         <Button  type='contact'/>
                     </div>
                     <div className="content">

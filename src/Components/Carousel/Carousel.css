@@ -58,12 +58,10 @@
 
     .swiper-projects .swiper-slide {
         width: 100% !important;
-        border: 2px var(--teste) solid !important;
     }
 
     .swiper-projects .swiper-slide .swiper-container {
         height: 585px !important;
-        border-bottom: 3px solid var(--teste);
     }
 
 

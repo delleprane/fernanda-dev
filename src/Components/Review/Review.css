@@ -43,11 +43,3 @@
 .swiper-review .swiper-pagination-bullet-active {
     background-color: var(---icons-color) !important;
 }
-
-@media (max-width: 768px) {
-
-    .review .review-container .bg .swiper-review .swiper-slide .carousel-container{
-        border: 2px solid var(---icons-color);
-    }
-
-}

@@ -102,11 +102,29 @@ export const projects = [
         github: 'https://github.com/delleprane/tabela-fipe',
         url: 'https://tabela-fipe-rho.vercel.app'
     },
-
-
-
 ]
 
+export const education = [
+    {
+        name: 'Curso Superior de Tecnologia (CST), Segurança da informação',
+        institution: 'FMU',
+        link: 'https://www.linkedin.com/in/fernanda-delleprane/details/education/',
+        certificationImage:'images/fmu-logo.png',
+    },
+    {
+        name: 'Desenvolvimento Web Full Stack',
+        institution: 'Ironhack',
+        link: 'https://www.linkedin.com/in/fernanda-delleprane/details/education/',
+        certificationImage:'images/ironhack-logo.png',
+         certification:'/docs/ironhack.pdf'
+    },
+    {
+        name: 'Marketing',
+        institution: 'Universidade Estacio de Sa',
+        link: 'https://www.linkedin.com/in/fernanda-delleprane/details/education/',
+        certificationImage:'images/estacio-logo.png',
+    },
+]
 
 export const reviews = [
     {
@@ -134,7 +152,7 @@ export const experience = [
     },
 
     {
-         title: "Front-end",
+        title: "Front-end",
         subTitle: "Huia",
         time: "2021 - 2022",
         content: `Desenvolvedora Front-end com ampla experiência em JavaScript, React, Strapi CMS, Tailwind, CSS e Styled Components. Tenho um histórico comprovado de criar soluções que equilibram inovação técnica e facilidade de uso.
@@ -142,24 +160,25 @@ export const experience = [
             Minha abordagem é sempre centrada no usuário, com foco em entregar produtos funcionais e de alta qualidade. Tenho experiência em colaborar com equipes multidisciplinares, aplicando metodologias ágeis como Scrum para garantir que os projetos sejam concluídos com excelência.
             `,
         tech: 'React.js, JavaScript, Strapi CMS, Tailwind CSS, CSS, Styled Components'
-        
+
     },
 ]
 
 export const contact = {
     content: "Estou sempre aberta a novas ideias, desafios e colaborações. Se você tem um projeto em mente, uma pergunta, ou apenas quer conversar sobre desenvolvimento, ficarei feliz em ouvir de você. Vamos conectar e construir algo incrível juntos!",
-    linkedin:{ url:"https://linkedin.com/in/fernanda-delleprane/", name:'Linkedin'},
-    email:{url: "fernandadelleprane@gmail.com", name:'E-mail'},
-    github:{url: "https://github.com/delleprane", name:"Github"},
-    
+    linkedin: { url: "https://linkedin.com/in/fernanda-delleprane/", name: 'Linkedin' },
+    email: { url: "fernandadelleprane@gmail.com", name: 'E-mail' },
+    github: { url: "https://github.com/delleprane", name: "Github" },
+
 }
 
-export const menu = ["Sobre", "Projetos", "Reviews", "Experiencia", "Educacao" , "Contato"]
+export const menu = ["Sobre", "Educacao", "Projetos", "Reviews", "Experiencia", "Contato"]
 
 
 // Content Web
 
 export const buttonCV = "Baixar curriculo"
+export const buttonCertification = ' Baixe o certificado'
 export const buttonContact = "Entre em contato"
-export const contactNumber ='+5524981330445'
+export const contactNumber = '+5524981330445'
 export const whastapp = 'Whatsapp'

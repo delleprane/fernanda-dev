@@ -1,0 +1,8 @@
+.signature .signature-container{
+    padding: 0 20px;
+    text-align: right;
+}
+
+.signature .signature-container img{
+    width: 150px;
+}

@@ -1,0 +1,44 @@
+.education .education-container {
+    padding: 20px;
+    color: var(--text-color);
+}
+
+.education .education-container h2 {
+    text-align: center;
+}
+
+.swiper-education {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.swiper-education .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-education .swiper-slide img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.swiper-education .swiper-slide .see-more a {
+    background-color: var(--back-ground);
+    color: var(--teste);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .swiper-education .swiper-slide img {
+        width: 150px;
+        height: 150px;
+    }
+}

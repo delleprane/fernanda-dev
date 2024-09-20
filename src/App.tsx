@@ -5,6 +5,8 @@ import { Projects } from './Components/Projects';
 import { Experience } from './Components/Experience';
 import { Review } from './Components/Review';
 import { Contact } from './Components/Contact';
+import { Education } from './Components/Education';
+import { Signature } from './Components/Signature';
 
 function App() {
   return (
@@ -17,11 +19,13 @@ function App() {
         </style>
         <Menu />
         <About />
+        <Education/>
         <Projects />
         <Review/>
         <Experience />
         <Contact/>
-      </div>
+        <Signature/>
+       </div>
     </div>
   );
 }
