@@ -5,7 +5,7 @@ import "./Projects.css"
 
 export function Projects() {
     return (
-        <div className="projects">
+        <div className="projects" id='projetos'>
             <div className="projects-container">
                 <h2 className="projects-title">Projetos</h2>
                 <Carousel />

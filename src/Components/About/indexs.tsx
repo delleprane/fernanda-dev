@@ -6,7 +6,7 @@ import { FaDownload } from 'react-icons/fa';
 export function About() {
 
     return (
-        <div className="about" id='about'>
+        <div className="about" id='sobre'>
             <div className="about-container">
                 <h1>Fernanda Delleprane</h1>
                 <h2 className='subtitle'>{about.title}</h2>

@@ -13,7 +13,7 @@ import { buttonCertification, education } from "../../utils/information";
 
 export function Education() {
     return (
-        <div className="education">
+        <div className="education" id='educacao'>
             <div className="education-container">
                 <h2>Educacao</h2>
                 <Swiper

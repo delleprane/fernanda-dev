@@ -5,7 +5,7 @@ import { Button } from "../Button"
 
 export function Contact() {
     return (
-        <div className="contact">
+        <div className="contact" id='contato'>
             <div className="contact-container">
                 <h2>Contato</h2>
                 <div className="border">
