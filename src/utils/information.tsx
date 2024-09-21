@@ -118,7 +118,7 @@ export const education = [
         name: 'Curso Superior de Tecnologia (CST), Segurança da informação',
         institution: 'FMU',
         link: 'https://www.linkedin.com/in/fernanda-delleprane/details/education/',
-        certificationImage: 'images/fmu-logo.png',
+        certificationImage: 'images/logo-fmu.webp',
     },
     {
         name: 'Desenvolvimento Web Full Stack',
